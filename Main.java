@@ -1,4 +1,5 @@
 import lista.Exercicio1;
+import lista.Exercicio3;
 import lista.Prompt;
 
 public class Main {
@@ -24,7 +25,8 @@ public class Main {
         aluno1.nota3 = Prompt.lerDecimal();
         aluno1.info();
         break;
-
+      case 3:
+        Exercicio3 funcionario = new Exercicio3();
       default:
         break;
     }
