@@ -7,11 +7,11 @@ public class Exercicio6 {
         return custoProduto + (custoProduto + porcentagemInfo);
     }
 
-    public void exercicio06(){
+    public void exercicio06() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe o preço de custo: ");
-        double custoProduto= sc.nextDouble();
+        double custoProduto = sc.nextDouble();
 
         System.out.println("Informe o percentual para venda: ");
         double porcentagemInfo = sc.nextDouble();
@@ -20,5 +20,5 @@ public class Exercicio6 {
 
         sc.close();
 
-
+    }
 }
