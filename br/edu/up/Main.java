@@ -1,11 +1,11 @@
-import lista.Exercicio1;
-import lista.Exercicio2;
-import lista.Exercicio3;
-import lista.Exercicio4;
-import lista.Exercicio5;
-import lista.Exercicio6;
-import lista.Exercicio7;
-import lista.Prompt;
+import models.Exercicio1;
+import models.Exercicio2;
+import models.Exercicio3;
+import models.Exercicio4;
+import models.Exercicio5;
+import models.Exercicio6;
+import models.Exercicio7;
+import models.Prompt;
 
 public class Main {
   public static void main(String[] args) {

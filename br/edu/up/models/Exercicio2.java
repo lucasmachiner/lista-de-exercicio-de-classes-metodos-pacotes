@@ -1,4 +1,4 @@
-package lista;
+package models;
 
 public class Exercicio2 {
     private double distanciaPecorrida;

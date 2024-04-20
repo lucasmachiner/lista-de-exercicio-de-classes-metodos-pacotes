@@ -1,4 +1,4 @@
-package lista;
+package models;
 
 public class Exercicio3 {
     public class Funcionario {

@@ -1,4 +1,4 @@
-package lista;
+package models;
 
 public class Exercicio7 {
     private double valorVeiculo;
