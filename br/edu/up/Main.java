@@ -1,62 +1,80 @@
-import models.Exercicio1;
-import models.Exercicio2;
-import models.Exercicio3;
-import models.Exercicio4;
-import models.Exercicio5;
-import models.Exercicio6;
-import models.Exercicio7;
-import models.Prompt;
+import exercicios.Exercicio1;
+import exercicios.Exercicio10;
+import exercicios.Exercicio11;
+import exercicios.Exercicio12;
+import exercicios.Exercicio13;
+import exercicios.Exercicio14;
+import exercicios.Exercicio15;
+import exercicios.Exercicio16;
+import exercicios.Exercicio17;
+import exercicios.Exercicio18;
+import exercicios.Exercicio19;
+import exercicios.Exercicio2;
+import exercicios.Exercicio20;
+import exercicios.Exercicio22;
+import exercicios.Exercicio23;
+import exercicios.Exercicio24;
+import exercicios.Exercicio25;
+import exercicios.Exercicio26;
+import exercicios.Exercicio3;
+import exercicios.Exercicio4;
+import exercicios.Exercicio5;
+import exercicios.Exercicio6;
+import exercicios.Exercicio7;
+import exercicios.Exercicio8;
+import exercicios.Exercicio9;
 
 public class Main {
-  public static void main(String[] args) {
-    int exercico = 0;
-
-    Prompt.imprimir("Informe o número do exercico que deseja executar");
-    Prompt.imprimir("1 - Exercicio 1");
-    Prompt.imprimir("2 - Exercicio 2");
-    Prompt.imprimir("3 - Exercicio 3");
-    Prompt.imprimir("4 - Exercicio 4");
-    Prompt.imprimir("5 - Exercicio 5");
-    Prompt.imprimir("6 - Exercicio 6");
-    Prompt.imprimir("7 - Exercicio 7");
-    exercico = Prompt.lerInteiro();
-
-    switch (exercico) {
-      case 1:
-        Prompt.imprimir("Exercicio 1 sendo executado");
-        Prompt.separador();
-        Exercicio1 aluno1 = new Exercicio1();
-        Prompt.imprimir("Informe o nome do aluno");
-        aluno1.nome = Prompt.lerLinha();
-        Prompt.imprimir("Informe a primeira nota do aluno");
-        aluno1.nota1 = Prompt.lerDecimal();
-        Prompt.imprimir("Informe a segunda nota do aluno");
-        aluno1.nota2 = Prompt.lerDecimal();
-        Prompt.imprimir("Informe a terceira nota do aluno");
-        aluno1.nota3 = Prompt.lerDecimal();
-        aluno1.info();
-        break;
-      case 2:
-        Exercicio2 consumo = new Exercicio2();
-        break;
-      case 3:
-        Exercicio3 funcionario = new Exercicio3();
-        break;
-      case 4:
-        Exercicio4 cotacao = new Exercicio4();
-        break;
-      case 5:
-        Exercicio5 pretacao = new Exercicio5();
-        break;
-      case 6:
-        Exercicio6 venda = new Exercicio6();
-        break;
-      case 7:
-        Exercicio7 carro = new Exercicio7();
-        break;
-      default:
-        break;
-    }
-
+  public static void main(String[] var0) {
+    Exercicio1 var1 = new Exercicio1();
+    var1.exercicio01();
+    Exercicio2 var2 = new Exercicio2();
+    var2.exercicio02();
+    Exercicio3 var3 = new Exercicio3();
+    var3.exercicio03();
+    Exercicio4 var4 = new Exercicio4();
+    var4.exercicio04();
+    Exercicio5 var5 = new Exercicio5();
+    var5.exercicio05();
+    Exercicio6 var6 = new Exercicio6();
+    var6.exercicio06();
+    Exercicio7 var7 = new Exercicio7();
+    var7.exercicio07();
+    Exercicio8 var8 = new Exercicio8();
+    var8.Exercicio08();
+    Exercicio9 var9 = new Exercicio9();
+    var9.exercicio09();
+    Exercicio10 var10 = new Exercicio10();
+    var10.exercicio10();
+    Exercicio11 var11 = new Exercicio11();
+    var11.exercicio11();
+    Exercicio12 var12 = new Exercicio12();
+    var12.exercicio12();
+    Exercicio13 var13 = new Exercicio13();
+    var13.exercicio13();
+    Exercicio14 var14 = new Exercicio14();
+    var14.exercicio14();
+    Exercicio15 var15 = new Exercicio15();
+    var15.exercicio15();
+    Exercicio16 var16 = new Exercicio16();
+    var16.exercicio16();
+    Exercicio17 var17 = new Exercicio17();
+    var17.exercicio17();
+    Exercicio18 var18 = new Exercicio18();
+    var18.exercicio18();
+    Exercicio19 var19 = new Exercicio19();
+    var19.exercicio19();
+    Exercicio20 var20 = new Exercicio20();
+    var20.exercicio20();
+    Exercicio22 var21 = new Exercicio22();
+    var21.exercicio22();
+    Exercicio23 var22 = new Exercicio23();
+    var22.exercicio23();
+    Exercicio24 var23 = new Exercicio24();
+    var23.exercicio24();
+    Exercicio25 var24 = new Exercicio25();
+    var24.exercicio25();
+    Exercicio26 var25 = new Exercicio26();
+    var25.exercicio26();
   }
 }
